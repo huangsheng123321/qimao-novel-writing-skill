@@ -1,0 +1,12 @@
+# qimao-novel-writing-skill
+
+node_modules/
+.DS_Store
+*.log
+*.tmp
+
+# Codex novel outputs can be private drafts; remove this rule if you want to commit examples.
+codex/output/*.md
+!codex/output/.gitkeep
+codex/input/*.md
+!codex/input/.gitkeep
